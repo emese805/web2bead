@@ -98,7 +98,7 @@ function nagy() {
     for (let i = 0; i < palyak[0]; i++) {
         palyanagy += "<tr>";
         for (let j = 0; j < palyak[0]; j++) {
-            palyanagy += genCella(palyak[0].tabla[i].charAt(j));
+            palyanagy += generalpalya(palyak[0].tabla[i].charAt(j));
         }
         palyanagy +="</td>";
     }
