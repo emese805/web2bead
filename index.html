@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="hu">
-
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="index.css">
-    <title>Beadando</title>
-    <script src="index.js"></script>
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js"></script>
 </head>
-
-
 <body>
-    <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Játék indítása</button>
-        <div id="myDropdown" class="dropdown-content">
-            <button onclick="kicsi()">Kicsi pálya</button>
-            <button onclick="nagy()">Nagy pálya</button>
-        </div>
-    </div>
+<h1>ROBOTKALAND</h1>
+<button value="Kicsi" onclick="kicsi()">Kicsi pálya</button>
+<button value="Nagy" onclick="nagy()">Nagy pálya</button>
+<table>
+    <tbody>
+    <tr>
+        <td>
+            <table>
+                <tbody id="jatek_tabla">
+
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+
 </body>
 </html>

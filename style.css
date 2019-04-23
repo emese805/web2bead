@@ -1,0 +1,38 @@
+.mezo{
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+.cel{
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: darkgreen;
+}
+
+.godor{
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: black;
+}
+
+.futoszalag{
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: lightblue;
+}
+.forgato{
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: orange;
+}
+.start{
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: lightgreen;
+}
